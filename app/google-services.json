@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "797465389085",
+    "project_id": "page-trade",
+    "storage_bucket": "page-trade.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797465389085:android:2aeca79559c2807e0a7ef4",
+        "android_client_info": {
+          "package_name": "com.example.pagetrade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzeaDfURC7TvvAcZa3AwmgtLX6DbPbbFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

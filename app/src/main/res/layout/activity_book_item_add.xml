@@ -1,0 +1,193 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        tools:context=".BookItemAddActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/imageBtn"
+                android:layout_width="352dp"
+                android:layout_height="216dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="18dp"
+                android:src="@drawable/add_bookphoto"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.608"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.064" />
+
+            <EditText
+                android:id="@+id/titleET"
+                android:layout_width="362dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="18dp"
+                android:drawableStart="@drawable/titlee"
+                android:drawablePadding="10dp"
+                android:hint="Title"
+                android:padding="10dp"
+                android:textColorHint="@color/lavender0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageBtn"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <EditText
+                android:id="@+id/authorET"
+                android:layout_width="362dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="18dp"
+                android:drawableStart="@drawable/authorr"
+                android:drawablePadding="10dp"
+                android:hint="Author's name"
+                android:padding="10dp"
+                android:textColorHint="@color/lavender0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titleET"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <EditText
+                android:id="@+id/priceET"
+                android:layout_width="362dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="18dp"
+                android:drawableStart="@drawable/pricee"
+                android:drawablePadding="10dp"
+                android:hint="Book's price"
+                android:padding="10dp"
+                android:textColorHint="@color/lavender0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.461"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/authorET"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <EditText
+                android:id="@+id/detailsET"
+                android:layout_width="366dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="18dp"
+                android:drawableStart="@drawable/detailss"
+                android:drawablePadding="10dp"
+                android:hint="Book Summary"
+                android:padding="10dp"
+                android:textColorHint="@color/lavender0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/priceET"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <EditText
+                android:id="@+id/sNameET"
+                android:layout_width="362dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="244dp"
+                android:drawableStart="@drawable/sellerr"
+                android:drawablePadding="10dp"
+                android:hint="Seller's name"
+                android:padding="10dp"
+                android:textColorHint="@color/lavender0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.489"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detailsET"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <EditText
+                android:id="@+id/sPhoneET"
+                android:layout_width="362dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="194dp"
+                android:drawableStart="@drawable/phonee"
+                android:drawablePadding="10dp"
+                android:hint="Seller's phone no."
+                android:padding="10dp"
+                android:textColorHint="@color/lavender0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.326"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sNameET"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <EditText
+                android:id="@+id/sEmailET"
+                android:layout_width="362dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="144dp"
+                android:drawableStart="@drawable/emaill"
+                android:drawablePadding="10dp"
+                android:hint="Seller's mail address"
+                android:padding="10dp"
+                android:textColorHint="@color/lavender0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.326"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sPhoneET"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/addBtn"
+                android:layout_width="172dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="285dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/button"
+                android:text="ADD"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.154"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sEmailET"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="172dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/button"
+                android:text="CANCEL"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/addBtn"
+                app:layout_constraintTop_toBottomOf="@+id/sEmailET"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

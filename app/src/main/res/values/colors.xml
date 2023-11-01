@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="charcoal">#2B2B2B</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="offWhite">#cbc9d6</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="hotPink">#E5509B</color>
+    <color name="pink1">#DA9CA3</color>
+    <color name="pink2">#DFACAF</color>
+    <color name="pink3">#E9B7BD</color>
+    <color name="pink4">#c6929b</color>
+
+
+    <color name="lOffWhite">#F6EEE3</color>
+    <color name="dPurple">#884394</color>
+    <color name="lavender0">#734F96</color>
+    <color name="lavender1">#967BB6</color>
+    <color name="lavender2">#B195D2</color>
+    <color name="lavender3">#CDB0EE</color>
+    <color name="lavender4">#E9CBFF</color>
+    <color name="lavender5">#AE9AC6</color>
+
+    <color name="dustyTeal">#7C979D </color>
+    <color name="lightBlue">#ADD8E6</color>
+    <color name="nevyBlue">#05445E</color>
+    <color name="blueGreen">#088F8F</color>
+    <color name="grey">#D2D2D2</color>
+</resources>

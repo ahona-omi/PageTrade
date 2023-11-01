@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PageTrade"
+        tools:targetApi="31">
+        <activity
+            android:name=".PdfItemDetailsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShareBuyerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RateusBuyerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FogetPwdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PdfItemBuyerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddedPdfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PdfItemDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PdfItemAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PdfItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PdfCategoryAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BuyerProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookItemBuyerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddedBookItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookItemDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookItemAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VieworderBuyerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PdfBuyerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainBuyerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VieworderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashscreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RateusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PdfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IdeaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

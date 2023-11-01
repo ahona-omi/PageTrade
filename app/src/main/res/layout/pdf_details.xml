@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".PdfItemDetailsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/background"
+            android:padding="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imgRvId"
+                android:layout_width="140dp"
+                android:layout_height="133dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/rvbooks"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toStartOf="@+id/back"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompact="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/bookNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="PDF Name"
+                android:drawableStart="@drawable/boook"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/authorTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Author"
+                android:drawableStart="@drawable/authorr"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/bookPriceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PDF Price"
+                android:drawableStart="@drawable/pricee"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/catTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:drawableStart="@drawable/cat"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/bookDetailsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PDF Summary"
+                android:drawableStart="@drawable/detailss"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/sellerNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seller Name"
+                android:drawableStart="@drawable/sellerr"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/sellerPhoneTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seller Phone"
+                android:drawableStart="@drawable/phonee"
+                android:textStyle="italic"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/sellerEmailTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seller Email"
+                android:textStyle="italic"
+                android:drawableStart="@drawable/emaill"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/pdfTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click to view PDF"
+                android:drawableStart="@drawable/pdf"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"/>
+
+            <!--ImageView
+                android:id="@+id/pdfTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/pdf"
+                app:layout_constraintEnd_toStartOf="@+id/back"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompact="@tools:sample/avatars" /-->
+
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

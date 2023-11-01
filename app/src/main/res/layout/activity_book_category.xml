@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".BookCategoryActivity">
+
+    <ImageButton
+        android:id="@+id/imageBtn"
+        android:layout_width="352dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="485dp"
+        android:src="@drawable/add_bookphoto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/titleET"
+        android:layout_width="362dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="404dp"
+        android:drawableStart="@drawable/category"
+        android:textColorHint="@color/lavender0"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:hint="Category Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageBtn" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="172dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="327dp"
+        android:background="@drawable/button"
+        android:text="ADD"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleET"
+        app:layout_constraintVertical_bias="0.739" />
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="172dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="334dp"
+        android:background="@drawable/button"
+        android:text="CANCEL"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/addBtn"
+        app:layout_constraintTop_toBottomOf="@+id/titleET"
+        app:layout_constraintVertical_bias="0.81" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

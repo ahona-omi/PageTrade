@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="12dp" /> <!-- Adjust the radius to control the roundness -->
+    <solid android:color="#A77EF1" /> <!-- Background color of the container -->
+</shape>

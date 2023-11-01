@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">PageTrade</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="seller_image_description">seller_image_placeholder</string>
+
+    <string name="heading1">Buy &amp; Sell Books</string>
+    <string name="heading2">Also available PDF</string>
+    <string name="heading3">Easy Payment</string>
+
+    <string name="desc1">Easily buy &amp; sell different types of books</string>
+    <string name="desc2">Can get PDF version within a minimal cost</string>
+    <string name="desc3">Have the option to pay online or when the item is delivered to home</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="link">
+        <a href="https://github.com/ahona-omi"> PageTradeGit</a>
+    </string>
+
+    <string-array name="usertype">
+        <item>Buyer</item>
+        <item>Seller</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

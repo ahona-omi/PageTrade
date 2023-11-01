@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/acme</item>
+        <item>@font/atma_medium</item>
+        <item>@font/autour_one</item>
+        <item>@font/bellota_italic</item>
+        <item>@font/poppins_thin</item>
+    </array>
+</resources>

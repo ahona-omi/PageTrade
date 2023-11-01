@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryAddActivity"
+    android:background="@color/offWhite">
+
+    <RelativeLayout
+        android:id="@+id/backBtnLayout"
+        android:layout_width="414dp"
+        android:layout_height="356dp"
+        android:background="@drawable/top_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/transparent"
+            android:padding="5dp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/iconIv"
+            android:layout_width="144dp"
+            android:layout_height="148dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iconIv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Add a new Category"
+            android:textSize="28sp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/categoryTil"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:hintEnabled="false">
+
+        <EditText
+            android:id="@+id/categoryEt"
+            android:layout_width="369dp"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/category"
+            android:padding="10dp"
+            android:hint="Category Title"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/lavender1"
+            android:textColor="@color/black"
+            android:inputType="textPersonName|textCapWords"
+            android:background="@drawable/edit_txt_bg1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Submit"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_below="@id/categoryTil"/>
+</RelativeLayout>
