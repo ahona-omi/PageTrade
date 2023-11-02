@@ -159,9 +159,6 @@ public class RateusActivity extends AppCompatActivity implements NavigationView.
         } else if(id==R.id.nav_share){
             Intent viewOrderIntent = new Intent(RateusActivity.this, ShareActivity.class);
             startActivity(viewOrderIntent);
-        } else if(id==R.id.nav_rate){
-            Intent viewOrderIntent = new Intent(RateusActivity.this, RateusActivity.class);
-            startActivity(viewOrderIntent);
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;

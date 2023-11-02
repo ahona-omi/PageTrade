@@ -42,7 +42,7 @@ public class ShareActivity extends AppCompatActivity implements NavigationView.O
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
-    TextView ev,mail;
+    TextView ev,mail, mail2;
     LottieAnimationView lottie;
     @SuppressLint("MissingInflatedId")
     @Override
@@ -60,8 +60,10 @@ public class ShareActivity extends AppCompatActivity implements NavigationView.O
         String email= firebaseUser.getEmail();
         ev= findViewById(R.id.subTitleTv);
         mail= findViewById(R.id.email);
+        mail2= findViewById(R.id.email1);
         ev.setText(email);
         mail.setMovementMethod(LinkMovementMethod.getInstance());
+        mail2.setMovementMethod(LinkMovementMethod.getInstance());
 
         setSupportActionBar(toolbar);
 
