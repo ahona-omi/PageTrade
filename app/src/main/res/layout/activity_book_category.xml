@@ -33,6 +33,7 @@
         android:padding="10dp"
         android:drawablePadding="10dp"
         android:hint="Category Name"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

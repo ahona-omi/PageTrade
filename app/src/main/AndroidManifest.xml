@@ -32,6 +32,9 @@
         android:theme="@style/Theme.PageTrade"
         tools:targetApi="31">
         <activity
+            android:name=".BookEditActivity"
+            android:exported="false" />
+        <activity
             android:name=".PdfItemDetailsActivity2"
             android:exported="false" />
         <activity

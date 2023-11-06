@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".BookEditActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgRvId"
+            android:layout_width="140dp"
+            android:layout_height="133dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/rvbooks"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toStartOf="@+id/back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompact="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/bookNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Book Name"
+            android:drawableStart="@drawable/boook"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/authorTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:drawableStart="@drawable/authorr"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/bookPriceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_txt_bg"
+            android:hint="Book Price"
+            android:textColorHint="@color/lavender1"
+            android:drawableStart="@drawable/pricee"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/catTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:drawableStart="@drawable/cat"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/bookDetailsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_txt_bg"
+            android:hint="Book Summary"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/lavender1"
+            android:drawableStart="@drawable/detailss"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/sellerNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_txt_bg"
+            android:hint="Seller Name"
+            android:textColorHint="@color/lavender1"
+            android:drawableStart="@drawable/sellerr"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/sellerPhoneTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_txt_bg"
+            android:hint="Seller Phone"
+            android:textColorHint="@color/lavender1"
+            android:drawableStart="@drawable/phonee"
+            android:drawablePadding="10dp"
+            android:textStyle="italic"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/sellerEmailTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_txt_bg"
+            android:hint="Seller Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/lavender1"
+            android:drawableStart="@drawable/emaill"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:layout_gravity="end|bottom"
+            app:fabSize="normal"
+            app:backgroundTint="@color/lavender0"
+            android:elevation="6dp"
+            android:src="@drawable/done"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </LinearLayout>
+
+</ScrollView>

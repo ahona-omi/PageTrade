@@ -54,11 +54,11 @@ public class BookDetailsAdapter extends RecyclerView.Adapter<BookDetailsAdapter.
             Log.d("FirebaseData", "bookName: " + bookItemModel.getBookName());
             Log.d("FirebaseData", "author: " + bookItemModel.getAuthor());
             Log.d("FirebaseData", "price: " + bookItemModel.getPrice());
-            Log.d("FirebaseData", "catKey: " + bookItemModel.getPrice());
-            Log.d("FirebaseData", "description: " + bookItemModel.getPrice());
-            Log.d("FirebaseData", "sellerName: " + bookItemModel.getPrice());
-            Log.d("FirebaseData", "sellerPhone: " + bookItemModel.getPrice());
-            Log.d("FirebaseData", "sellerMail: " + bookItemModel.getPrice());
+            Log.d("FirebaseData", "catKey: " + bookItemModel.getCatKey());
+            Log.d("FirebaseData", "description: " + bookItemModel.getDescription());
+            Log.d("FirebaseData", "sellerName: " + bookItemModel.getSellerName());
+            Log.d("FirebaseData", "sellerPhone: " + bookItemModel.getSellerPhone());
+            Log.d("FirebaseData", "sellerMail: " + bookItemModel.getSellerMail());
 
             holder.bookName.setText(bookItemModel.getBookName() != null ? bookItemModel.getBookName() : "");
             holder.author.setText(bookItemModel.getAuthor() != null ? bookItemModel.getAuthor() : "");

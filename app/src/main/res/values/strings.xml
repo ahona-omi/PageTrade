@@ -28,7 +28,11 @@
     </string>
 
     <string name="yt">
-        <a href="https://youtu.be/MAV2hfJr7N4"> PageTradeYoutube</a>
+        <a href="https://youtu.be/qJ5ssmyujgw"> PageTradeYoutube</a>
+    </string>
+
+    <string name="apk">
+        <a href="https://drive.google.com/drive/folders/14WdhQij2GjyaI75wQFYp7TirjDXmZsOf?usp=sharing"> PageTradeApk</a>
     </string>
 
     <string-array name="usertype">
